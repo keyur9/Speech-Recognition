@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+cache: pip
+install:
+  - pip install ez_setup
+  - pip install sox
+  - pip install pyaudio
+  - pip install pyttsx
+script:
+  - python Speech_Recognition.py

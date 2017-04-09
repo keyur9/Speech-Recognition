@@ -1,0 +1,2 @@
+pygsr==0.1
+pyttsx==1.0
